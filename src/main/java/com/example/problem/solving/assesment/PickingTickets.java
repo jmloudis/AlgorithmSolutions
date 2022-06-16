@@ -33,21 +33,6 @@ public class PickingTickets {
         System.out.println(" ");
         System.out.println(n);
         return n;
-//        return Math.max(max, i - start + 1);
-
-//        for (int j = 1; j < a.size(); j++) {
-//            if (Math.abs(a.get(j - 1) - a.get(j)) > 1){
-//                start = j;
-//                max = j - i;
-//                System.out.println(j);
-//                if (max > n){
-//                    n = max;
-//                }
-//                i = j;
-//                start = j;
-//            }
-//            start++;
-//        }
 
     }
 }
