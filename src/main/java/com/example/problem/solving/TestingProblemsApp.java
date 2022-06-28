@@ -5,9 +5,11 @@ import com.example.problem.solving.hackerrank.greedy.*;
 import com.example.problem.solving.hackerrank.implementation.*;
 import com.example.problem.solving.hackerrank.warmup.*;
 import com.example.problem.solving.practice.*;
+import com.sun.jdi.IntegerValue;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 /**
  * Algorithms Overview
@@ -25,7 +27,10 @@ public class TestingProblemsApp {
 
 //        Practice.practiceProblems(6);
 
-        String value = DayOfTheProgrammer.leapYear(2018);
-        System.out.println(value);
+//        List<Integer> ar = new ArrayList<>(Arrays.asList(4, 73, 67, 38, 33));
+
+        List<Integer> height = new ArrayList<>(Arrays.asList(1,6,3,5,2));
+        TheHurdleRace.hurdleRace(4, height);
+
     }
 }
