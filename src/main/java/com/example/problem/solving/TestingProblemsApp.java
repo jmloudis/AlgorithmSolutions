@@ -27,10 +27,8 @@ public class TestingProblemsApp {
 
 //        Practice.practiceProblems(6);
 
-//        List<Integer> ar = new ArrayList<>(Arrays.asList(4, 73, 67, 38, 33));
 
-        List<Integer> height = new ArrayList<>(Arrays.asList(1,6,3,5,2));
-        TheHurdleRace.hurdleRace(4, height);
+        FindDigits.findDigits(1012);
 
     }
 }
