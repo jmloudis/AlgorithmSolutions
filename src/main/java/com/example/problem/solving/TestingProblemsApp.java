@@ -3,7 +3,6 @@ package com.example.problem.solving;
 import com.example.problem.solving.assesment.*;
 import com.example.problem.solving.hackerrank.greedy.*;
 import com.example.problem.solving.hackerrank.implementation.*;
-import com.example.problem.solving.hackerrank.warmup.*;
 import com.example.problem.solving.practice.*;
 import com.sun.jdi.IntegerValue;
 
@@ -25,10 +24,8 @@ public class TestingProblemsApp {
 
     public static void main(String[] args){
 
-//        Practice.practiceProblems(6);
 
 
-        FindDigits.findDigits(1012);
 
     }
 }

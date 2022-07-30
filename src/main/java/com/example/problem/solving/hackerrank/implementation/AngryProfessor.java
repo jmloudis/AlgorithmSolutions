@@ -17,6 +17,7 @@ public class AngryProfessor {
                 onTimeStudents++;
             }
         }
+
         System.out.println(onTimeStudents);
 
         if ( onTimeStudents >= k)
