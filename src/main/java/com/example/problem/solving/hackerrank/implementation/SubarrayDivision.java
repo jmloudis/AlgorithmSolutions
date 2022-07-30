@@ -5,32 +5,29 @@ import java.util.List;
 public class SubarrayDivision {
 
     public static int birthday(List<Integer> s, int d, int m){
-        int count = 0;
-        int sum = 0;
-        int size = s.size();
-
-        for (int i = 0; i < size; i++){
-
+        int total = 0;
+        for (int i = 0; i < s.size(); i++)
+        {
             int limit = i + m;
-            if (limit > size){
+            if (limit > s.size())
+            {
                 break;
             }
 
-            sum = 0;
-            for (int j = i; j < limit; j++){
+            int sum = 0;
+            for (int j = i; j < limit; j++)
+            {
                 sum += s.get(j);
                 System.out.println(s.get(j));
-                System.out.println();
-                System.out.println(sum);
             }
-            System.out.println("End of Inner Loop");
 
-            if (sum == d){
-                count++;
+            if (sum == d)
+            {
+                total++;
             }
+
         }
 
-
-        return count;
+        return total;
     }
 }
